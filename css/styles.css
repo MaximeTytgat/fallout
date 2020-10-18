@@ -77,65 +77,32 @@ footer {
     height: 290px;
 }
 
+footer ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+footer img {
+    width: 260px;
+}
+
+footer li:first-child, footer li:last-child {
+    position: relative;
+    top: -150px;
+}
+
 footer p {
     position: relative;
-    top: -140px;
-    display: inline;
-    color: white;
-    padding-right: 200px;
-}
-footer ul {
-    padding: 0 10%;
+    top: -205px;
+    left: 13%;
     text-align: center;
-}
-footer li {
-    display: inline;
-    position: relative;
-    top: -80px;
-}
-
-footer li img {
-    width: 190px;
-}
-
-footer li:first-child {
-    float: left;
-}
-
-footer .centered_image {
-    top: 30px;
-}
-
-footer li:last-child {
-    float: right;
-}
-
-footer li:last-child div {
+    width: 200px;
     font-weight: 600;
     color: rgb(51, 51, 51);
-    position: relative;
-    top: -5px;
-    left: 12%;
-    width: 148px;
 }
-footer li:last-child div p {
-    text-align: center;
-    position: relative;
-    color: rgb(51, 51, 51);
-    padding-right: 0;
-    font-size: 22px;
-    font-weight: 600;
-}
-footer li:last-child div p span {
-    color: rgb(51, 51, 51);
+
+.release_date {
     font-weight: 300;
-}
-
-footer li:last-child div p span span {
-    font-size: 20px;
-}
-footer li:last-child div p span span:last-child {
-    font-weight: 600;
 }
 
 .company {
@@ -166,7 +133,7 @@ footer li:last-child div p span span:last-child {
 }
 
 .container {
-    padding: 100px 20%;
+    padding: 100px 20% 200px 20%;
 }
 
 .container li {
@@ -190,11 +157,6 @@ footer li:last-child div p span span:last-child {
     float: left;
 }
 
-
-
-@media screen and (max-width: 400px) {
-    
-}
 
 
 @media screen and (max-width: 500px) {
@@ -250,6 +212,21 @@ footer li:last-child div p span span:last-child {
 
     .container li {
         line-height: 20px;
+    }
+
+    footer img {
+        width: 100px;
+    }
+    
+    footer li:first-child, footer li:last-child {
+        top: -50px;
+    }
+    
+    footer p {
+        top: -85px;
+        left: 16%;
+        width: 70px;
+        font-size: 10px;
     }
     
     
@@ -308,25 +285,19 @@ footer li:last-child div p span span:last-child {
         line-height: 24px;
     }
 
-    footer li img {
-        width: 130px;
+    footer img {
+        width: 120px;
     }
-
-    .inImg {
-        top: 25px;
-        left: 11%;
-        width: 105px;
+    
+    footer li:first-child, footer li:last-child {
+        top: -80px;
     }
-
-    .inImg p {
-        font-size: 16px;    
-    }
-
-    .inImg p span span{
-        font-size: 14px;    
-    }
-    footer {
-        height: 240px;
+    
+    footer p {
+        top: -95px;
+        left: 19%;
+        width: 80px;
+        font-size: 12px;
     }
 }
 
@@ -363,7 +334,7 @@ footer li:last-child div p span span:last-child {
     }
 
     .container {
-        padding: 100px 70px;
+        padding: 100px 70px 150px 70px;
     }
 
     .container p {
@@ -378,20 +349,19 @@ footer li:last-child div p span span:last-child {
         font-size: 40px;
     }
 
-    footer li img {
+    footer img {
         width: 160px;
     }
-
-    .inImg {
-        top: 5px;
-        left: 11%;
-        width: 130px;
+    
+    footer li:first-child, footer li:last-child {
+        top: -80px;
     }
-    .inImg p {
-        font-size: 20px;    
-    }
-    .inImg p span span{
-        font-size: 18px;    
+    
+    footer p {
+        top: -132px;
+        left: 15%;
+        width: 120px;
+        font-size: 18px;
     }
 }
 
@@ -436,11 +406,26 @@ footer li:last-child div p span span:last-child {
     }
 
     .container {
-        padding: 100px 120px;
+        padding: 100px 120px 150px 120px;
     }
 
     .container li::before {
         font-size: 50px;
+    }
+
+    footer img {
+        width: 200px;
+    }
+    
+    footer li:first-child, footer li:last-child {
+        top: -100px;
+    }
+    
+    footer p {
+        top: -160px;
+        left: 12%;
+        width: 160px;
+        font-size: 22px;
     }
 
 }
@@ -475,7 +460,7 @@ footer li:last-child div p span span:last-child {
     }
 
     .container {
-        padding: 100px 15%;
+        padding: 100px 15% 150px 15%;
     }
 
     h2 {
@@ -486,5 +471,19 @@ footer li:last-child div p span span:last-child {
         font-size: 24px;
     }
 
-
+    
+    footer img {
+        width: 200px;
+    }
+    
+    footer li:first-child, footer li:last-child {
+        top: -100px;
+    }
+    
+    footer p {
+        top: -160px;
+        left: 12%;
+        width: 160px;
+        font-size: 22px;
+    }
 }
