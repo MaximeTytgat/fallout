@@ -77,13 +77,6 @@ footer {
     height: 290px;
 }
 
-footer p {
-    position: relative;
-    top: -140px;
-    display: inline;
-    color: white;
-    padding-right: 200px;
-}
 footer ul {
     padding: 0 10%;
     text-align: center;
@@ -110,32 +103,19 @@ footer li:last-child {
     float: right;
 }
 
-footer li:last-child div {
-    font-weight: 600;
-    color: rgb(51, 51, 51);
+footer p {
     position: relative;
-    top: -60px;
+    top: -200px;
     left: 13%;
     width: 200px;
-}
-footer li:last-child div p {
     text-align: center;
-    position: relative;
     color: rgb(51, 51, 51);
     padding-right: 0;
     font-size: 28px;
     font-weight: 600;
 }
-footer li:last-child div p span {
-    color: rgb(51, 51, 51);
+footer p span {
     font-weight: 300;
-}
-
-footer li:last-child div p span span {
-    font-size: 20px;
-}
-footer li:last-child div p span span:last-child {
-    font-weight: 600;
 }
 
 .company {
@@ -258,14 +238,11 @@ footer li:last-child div p span span:last-child {
     }
 
     
-    footer li:last-child div {
-        top: 47px;
-        left: 16%;
-        width: 70px;
-    }
-
-    footer li:last-child div p {
+    footer p {
         font-size: 10px;
+        top: -80px;
+        left: 18%;    
+        width: 70px;
     }
     
     
@@ -323,24 +300,7 @@ footer li:last-child div p span span:last-child {
     .container li {
         line-height: 24px;
     }
-
-    footer li img {
-        width: 130px;
-    }
-
-    .inImg {
-        top: 25px;
-        left: 11%;
-        width: 105px;
-    }
-
-    .inImg p {
-        font-size: 16px;    
-    }
-
-    .inImg p span span{
-        font-size: 14px;    
-    }
+    
     footer {
         height: 240px;
     }
@@ -355,15 +315,11 @@ footer li:last-child div p span span:last-child {
         top: -60px;
     }
 
-    
-    footer li:last-child div {
-        top: 35px;
-        left: 17%;
-        width: 80px;
-    }
-
-    footer li:last-child div p {
+    footer p {
         font-size: 12px;
+        top: -95px;
+        left: 18%;    
+        width: 80px;
     }
 }
 
@@ -424,16 +380,12 @@ footer li:last-child div p span span:last-child {
         position: relative;
         top: -80px;
     }
-
     
-    footer li:last-child div {
-        top: 5px;
-        left: 10%;
-        width: 130px;
-    }
-
-    footer li:last-child div p {
+    footer p {
         font-size: 18px;
+        top: -130px;
+        left: 11%;    
+        width: 130px;
     }
 }
 
@@ -486,25 +438,19 @@ footer li:last-child div p span span:last-child {
     }
 
     footer li {
-        display: inline;
-        position: relative;
         top: -110px;
     }
 
     footer li img {
         width: 200px;
     }
-    
-    footer li:last-child div {
-        top: -20px;
-        left: 8%;
+
+    footer p {
+        font-size: 22px;
+        top: -160px;
+        left: 10%;
         width: 170px;
     }
-
-    footer li:last-child div p {
-        font-size: 22px;
-    }
-
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1600px) {
@@ -549,24 +495,17 @@ footer li:last-child div p span span:last-child {
     }
 
     footer li {
-        display: inline;
-        position: relative;
         top: -110px;
     }
 
     footer li img {
         width: 200px;
     }
-    
-    footer li:last-child div {
-        top: -20px;
-        left: 8%;
+
+    footer p {
+        font-size: 22px;
+        top: -160px;
+        left: 10%;
         width: 170px;
     }
-
-    footer li:last-child div p {
-        font-size: 22px;
-    }
-    
-
 }
