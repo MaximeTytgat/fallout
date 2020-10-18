@@ -91,11 +91,11 @@ footer ul {
 footer li {
     display: inline;
     position: relative;
-    top: -80px;
+    top: -150px;
 }
 
 footer li img {
-    width: 190px;
+    width: 260px;
 }
 
 footer li:first-child {
@@ -114,16 +114,16 @@ footer li:last-child div {
     font-weight: 600;
     color: rgb(51, 51, 51);
     position: relative;
-    top: -5px;
-    left: 12%;
-    width: 148px;
+    top: -60px;
+    left: 13%;
+    width: 200px;
 }
 footer li:last-child div p {
     text-align: center;
     position: relative;
     color: rgb(51, 51, 51);
     padding-right: 0;
-    font-size: 22px;
+    font-size: 28px;
     font-weight: 600;
 }
 footer li:last-child div p span {
@@ -166,7 +166,7 @@ footer li:last-child div p span span:last-child {
 }
 
 .container {
-    padding: 100px 20%;
+    padding: 100px 20% 200px 20%;
 }
 
 .container li {
@@ -190,11 +190,6 @@ footer li:last-child div p span span:last-child {
     float: left;
 }
 
-
-
-@media screen and (max-width: 400px) {
-    
-}
 
 
 @media screen and (max-width: 500px) {
@@ -250,6 +245,27 @@ footer li:last-child div p span span:last-child {
 
     .container li {
         line-height: 20px;
+    }
+
+    footer li img {
+        width: 100px;
+    }
+
+    footer li {
+        display: inline;
+        position: relative;
+        top: -40px;
+    }
+
+    
+    footer li:last-child div {
+        top: 47px;
+        left: 16%;
+        width: 70px;
+    }
+
+    footer li:last-child div p {
+        font-size: 10px;
     }
     
     
@@ -328,6 +344,27 @@ footer li:last-child div p span span:last-child {
     footer {
         height: 240px;
     }
+
+    footer li img {
+        width: 120px;
+    }
+
+    footer li {
+        display: inline;
+        position: relative;
+        top: -60px;
+    }
+
+    
+    footer li:last-child div {
+        top: 35px;
+        left: 17%;
+        width: 80px;
+    }
+
+    footer li:last-child div p {
+        font-size: 12px;
+    }
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
@@ -363,7 +400,7 @@ footer li:last-child div p span span:last-child {
     }
 
     .container {
-        padding: 100px 70px;
+        padding: 100px 70px 150px 70px;
     }
 
     .container p {
@@ -382,16 +419,21 @@ footer li:last-child div p span span:last-child {
         width: 160px;
     }
 
-    .inImg {
+    footer li {
+        display: inline;
+        position: relative;
+        top: -80px;
+    }
+
+    
+    footer li:last-child div {
         top: 5px;
-        left: 11%;
+        left: 10%;
         width: 130px;
     }
-    .inImg p {
-        font-size: 20px;    
-    }
-    .inImg p span span{
-        font-size: 18px;    
+
+    footer li:last-child div p {
+        font-size: 18px;
     }
 }
 
@@ -436,11 +478,31 @@ footer li:last-child div p span span:last-child {
     }
 
     .container {
-        padding: 100px 120px;
+        padding: 100px 120px 150px 120px;
     }
 
     .container li::before {
         font-size: 50px;
+    }
+
+    footer li {
+        display: inline;
+        position: relative;
+        top: -110px;
+    }
+
+    footer li img {
+        width: 200px;
+    }
+    
+    footer li:last-child div {
+        top: -20px;
+        left: 8%;
+        width: 170px;
+    }
+
+    footer li:last-child div p {
+        font-size: 22px;
     }
 
 }
@@ -475,7 +537,7 @@ footer li:last-child div p span span:last-child {
     }
 
     .container {
-        padding: 100px 15%;
+        padding: 100px 15% 150px 15%;
     }
 
     h2 {
@@ -486,5 +548,25 @@ footer li:last-child div p span span:last-child {
         font-size: 24px;
     }
 
+    footer li {
+        display: inline;
+        position: relative;
+        top: -110px;
+    }
+
+    footer li img {
+        width: 200px;
+    }
+    
+    footer li:last-child div {
+        top: -20px;
+        left: 8%;
+        width: 170px;
+    }
+
+    footer li:last-child div p {
+        font-size: 22px;
+    }
+    
 
 }
